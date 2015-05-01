@@ -8,6 +8,9 @@ Gem::Specification.new do |s|
   s.authors             = ['Krishnan M']
   s.email               = 'km@krishnanm.com'
   s.files               = Dir['lib/**/*.rb']
+  s.add_runtime_dependency 'lightswitch-schedules'
+  s.add_runtime_dependency 'lightswitch-cloud'
+  s.add_development_dependency 'riot'
   s.homepage            = 'http://rubygems.org/gems/lightswitch-actions'
   s.license             = 'MIT'
 
