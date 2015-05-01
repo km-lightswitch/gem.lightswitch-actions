@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    lightswitch-actions (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    lightswitch-cloud (0.0.1)
+    lightswitch-schedules (0.0.1)
+    riot (0.12.7)
+      rr
+    rr (1.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lightswitch-actions!
+  lightswitch-cloud
+  lightswitch-schedules
+  riot
